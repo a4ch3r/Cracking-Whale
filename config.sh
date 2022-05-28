@@ -4,7 +4,7 @@ echo "$distro_name"
 
 if [ "$distro_name" = 'NAME="Ubuntu"' ];then
     sudo apt update && sudo apt upgrade -y;
-    reboot;
+    #reboot;
     sudo apt update -y;
     sudo sh -c "echo 'deb https://http.kali.org/kali kali-rolling main non-free contrib' > /etc/apt/sources.list.d/kali.list";
     sudo apt install gnupg -y;
