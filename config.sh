@@ -29,7 +29,7 @@ if [ "$distro_name" = 'NAME="Ubuntu"' ];then
     
 
 
-    sudo alias tool-install " sudo aptitude install -t kali-rolling" 
+    sudo alias tool-install ="sudo aptitude install -t kali-rolling" 
 fi
 #if($distro_name == 'NAME="Ubuntu"')S
 
