@@ -23,6 +23,9 @@ if [ "$distro_name" = 'NAME="Ubuntu"' ];then
     sudo aptitude install -t kali-rolling sslscan
     sudo aptitude install -t kali-rolling ipv6toolkitt
     sudo aptitude install -t kali-rolling thc-ssl-dos
+    sudo aptitude install -t kali-rolling ettercap
+    sudo aptitude install -t kali-rolling dnsiff
+
     
 
 
